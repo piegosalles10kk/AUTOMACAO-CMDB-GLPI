@@ -1,0 +1,7 @@
+# Porta da aplicação
+PORT=3003
+  
+GLPI_API_URL=<sua-url-api-glpi>
+GLPI_APP_TOKEN=<seu-app-token-glpi>
+GLPI_USER_LOGIN=<seu-login-glpi>
+GLPI_USER_PASSWORD=<sua-senha-glpi>

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api-coleta-glpi-datto-acronis:
+    # Usa o Dockerfile no diretório atual para construir a imagem
+    build: .
+    
+    # Mapeia a porta 3003 do seu computador para a porta 3003 do container
+    ports:
+      - "3000:3000"
+    
+    # Reinicia o container se ele parar inesperadamente
+    restart: always

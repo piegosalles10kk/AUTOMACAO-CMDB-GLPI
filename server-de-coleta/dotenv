@@ -1,0 +1,18 @@
+# Porta da aplicação
+PORT=3000
+
+# Configurações da API do ACRONIS
+ACRONIS_BASE_URL=https://<seu-data-center-acronis>
+ACRONIS_CLIENT_ID=<seu-client-id-acronis>
+ACRONIS_CLIENT_SECRET=<seu-client-secret-acronis>
+
+# Configurações da API do DATTO
+DATTO_BASE=<sua-api-url-datto>
+DATTO_KEY=<sua-chave-datto>
+DATTO_SECRET=<seu-secret-datto>
+
+# Configurações da API do GLPI
+GLPI_API_URL=<sua-url-api-glpi>
+GLPI_APP_TOKEN=<seu-app-token-glpi>
+GLPI_USER_LOGIN=<seu-login-glpi>
+GLPI_USER_PASSWORD=<sua-senha-glpi>

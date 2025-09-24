@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api-glpi-post:
+    # Indica para procurar o Dockerfile na subpasta server-glpi
+    build: ./server-glpi
+    
+    ports:
+      - "3003:3003"
+    
+    restart: always
+
+  api-coleta-glpi:
+    # Indica para procurar o Dockerfile na subpasta server-de-coleta
+    build: ./server-de-coleta
+    
+    ports:
+      - "3000:3000"
+    
+    restart: always
