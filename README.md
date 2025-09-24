@@ -22,8 +22,8 @@ Este sistema coleta dados de dispositivos automaticamente e os envia para o GLPI
 
 1. **Baixe ou clone o projeto**
 ```bash
-git clone https://github.com/piegosalles10kk/automacao-cmdb-glpi
-cd automacao-cmdb-glpi
+git clone https://github.com/piegosalles10kk/AUTOMACAO-CMDB-GLPI
+cd AUTOMACAO-CMDB-GLPI
 ```
 
 2. **Configure as variáveis de ambiente**
@@ -295,3 +295,4 @@ double-click em: executar-coleta.bat
 - Teste GLPI: http://localhost:3003/api/glpi/teste
 
 **Pronto! Seu sistema estará coletando e enviando inventário automaticamente para o GLPI!** 🎉
+
