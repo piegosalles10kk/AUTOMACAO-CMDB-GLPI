@@ -77,7 +77,6 @@ Antes de começar, certifique-se de ter instalado:
 
 - 🔑 **Datto RMM**: API Key + Secret
 - 🔑 **GLPI**: URL + App Token + Usuário/Senha
-- 🔑 **Acronis** (opcional): Client ID + Secret
 
 ---
 
@@ -591,4 +590,5 @@ Este projeto está sob a licença ISC. Veja o arquivo `LICENSE` para mais detalh
 **Desenvolvido por Piego**
 
 **Última atualização**: Setembro 2025
+
 
