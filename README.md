@@ -18,13 +18,13 @@ Este sistema automatiza completamente o processo de coleta de inventário de dis
 ### O que o sistema faz?
 
 ```
-            ┌─────────────┐      ┌──────────────┐      ┌─────────────┐      ┌──────────┐
-            │   Datto     │────▶│  API Coleta  │────▶│  Automação   │────▶│   GLPI   │
-            │  Acronis    │      │              │      │   Script    │      │          │
-            │   GLPI      │      │  (Port 3000) │      │             │      │(Port3003)│
-            └─────────────┘      └──────────────┘      └─────────────┘      └──────────┘
-               Fontes de            Centraliza            Processa e           Armazena
-                 Dados                Dados                 Converte           Inventário
+            ┌───────────┐      ┌────────────┐      ┌───────────┐      ┌──────────┐
+            │   Datto   │────▶│  API Coleta│────▶│  Automação │────▶│   GLPI   │
+            │  Acronis  │      │            │      │   Script  │      │          │
+            │   GLPI    │      │ (Port 3000)│      │           │      │(Port3003)│
+            └───────────┘      └────────────┘      └───────────┘      └──────────┘
+               Fontes de         Centraliza          Processa e         Armazena
+                 Dados              Dados            Converte          Inventário
 ```
 
 
@@ -590,5 +590,6 @@ Este projeto está sob a licença ISC. Veja o arquivo `LICENSE` para mais detalh
 **Desenvolvido por Piego**
 
 **Última atualização**: Setembro 2025
+
 
 
