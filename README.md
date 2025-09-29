@@ -253,7 +253,7 @@ Processo de coleta de dados e importação para a API GLPI concluído.
 | 3️⃣ **Processamento** | Para cada dispositivo, coleta detalhes e envia | ~2-5 seg/dispositivo |
 | 4️⃣ **Finalização** | Exibe resumo e estatísticas | ~1 segundo |
 
-### Tradução dos Processo
+### Tradução dos campos entre api
 
 ![Imagens do app](https://i.ibb.co/ccLtFsDq/tradutor.png)
 
@@ -591,3 +591,4 @@ Este projeto está sob a licença ISC. Veja o arquivo `LICENSE` para mais detalh
 **Desenvolvido por Piego**
 
 **Última atualização**: Setembro 2025
+
